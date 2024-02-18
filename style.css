@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-color: lightgoldenrodyellow;
+}
+
+section{
+    width: 100%;
+}
+
+#container {
+    max-width: 500px;
+    height: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+label{
+    color: #16A085;
+    font-size: 18px;
+}
+#heading{
+    text-align: center;
+    color: #CD6155;
+    font-size: 30px;
+}
+
+#input{
+    margin: 12px;
+    text-align: center;
+}
+.input-field{
+    border-radius: 25px;
+    padding: 8px;
+    border: none;
+    background-color: aliceblue;
+    outline: none;
+}
+#balance{
+    width: 18vw;
+    margin-left: 65px;
+}
+#totalSalary{
+    width: 18vw;
+    margin-left: 35px;
+}
+.balance {
+    margin-bottom: 20px;
+}
+#expenseCategory{
+    width: 18vw;
+    margin-left: 132px;
+}
+#expenseAmount{
+    width: 18vw;
+    margin-left: 132px;
+}
+.expense-form input, .expense-form button {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.expense-list h2 {
+    margin-bottom: 10px;
+}
+
+button{
+    margin-top: 25px;
+    width: 15vw;
+    background-color: #45B39D;
+    border-radius: 25px;
+    padding: 8px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}

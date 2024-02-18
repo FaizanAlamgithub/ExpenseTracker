@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <div id="container">
+      <h1 id="heading">Expense Tracker</h1>
+      <div class="balance">
+          <div id="input">
+            <label>Total Salary:</label>
+            <input type="number" class="input-field" id="totalSalary" oninput="calculateBalance()" placeholder="Enter your total salary">
+          </div>
+          <div id="input">
+            <label>Balance:</label>
+            <input type="number" class="input-field" id="balance" readonly>
+          </div>
+      </div>
+      <div class="expense-form">
+        <div id="input">
+          <input type="text" class="input-field" id="expenseCategory" placeholder="Expense Category">
+        </div>
+        <div id="input">
+          <input type="number" class="input-field" id="expenseAmount" placeholder="Expense Amount">
+          <button onclick="addExpense()">Add Expense</button>
+        </div> 
+      </div>
+      <div class="expense-list">
+          <h2 id="heading">Expenses</h2>
+          <ul id="expenses"></ul>
+      </div>
+  </div>
+  </section>
+    <script src="script.js"></script>
+</body>
+</html>
